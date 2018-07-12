@@ -7,3 +7,4 @@ export default [
     { path: '/add', component: addBlog},
     { path: '/blog/:id', component: singleBlog}
 ]
+  

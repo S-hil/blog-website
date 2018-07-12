@@ -59,7 +59,7 @@ export default {
     },
     methods: {
         post: function(){
-            this.$http.post('http://jsonplaceholder.typicode.com/posts', {
+            this.$http.post('https://testvue-fbfa8.firebaseio.com/posts.json', {
                 title: this.blog.title,
                 body: this.blog.content,
                 userId: 1
